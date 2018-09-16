@@ -1,0 +1,8 @@
+names(data_mean_std) <- gsub("Acc", "Acceleration", names(data_mean_std))
+names(data_mean_std) <- gsub("^t", "Time", names(data_mean_std))
+names(data_mean_std) <- gsub("^f", "Frequency", names(data_mean_std))
+names(data_mean_std) <- gsub("BodyBody", "Body", names(data_mean_std))
+names(data_mean_std) <- gsub("mean", "Mean", names(data_mean_std))
+names(data_mean_std) <- gsub("std", "Std", names(data_mean_std))
+names(data_mean_std) <- gsub("Freq", "Frequency", names(data_mean_std))
+names(data_mean_std) <- gsub("Mag", "Magnitude", names(data_mean_std))
